@@ -1,12 +1,11 @@
 import React from 'react';
+import AppRouter from './Router';
+
 //import logo from './logo.svg';
 //import './App.css';
 
 function App() {
-  return (
-    <div>
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;

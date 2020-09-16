@@ -1,14 +1,14 @@
 import * as firebase from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAb8Y8o3lzhNMLBlvZQHPngp6mrzAol8pA",
-    authDomain: "cltwit.firebaseapp.com",
-    databaseURL: "https://cltwit.firebaseio.com",
-    projectId: "cltwit",
-    storageBucket: "cltwit.appspot.com",
-    messagingSenderId: "317373879735",
-    appId: "1:317373879735:web:454efd8b23770bf9eb0432",
-    measurementId: "G-4Y78H516KS"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_DATABASE_URL,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGIN_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
   };
 
   export default firebase.initializeApp(firebaseConfig);
