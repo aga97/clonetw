@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://nomadcoders.co/nwitter/lobby 따라하면서 작성함.
 
 ## Available Scripts
 
